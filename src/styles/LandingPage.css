@@ -1,0 +1,18 @@
+.container {
+    background-color: black;
+    margin-top: 0;
+}
+
+.title {
+    color: white;
+    margin: 0;
+    padding: 40px 0;
+    /* margin-top: 10px; */
+    /* background-color: black; */
+}
+
+.title-container {
+    border-radius: 1px;
+    border-color: white;
+    border-bottom: 2px solid white;
+}
