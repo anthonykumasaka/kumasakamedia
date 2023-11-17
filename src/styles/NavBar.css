@@ -1,0 +1,17 @@
+.nav-container{
+    display: flex;
+    border-bottom: 1px solid white;
+    border-color: white;
+    border-radius: 1px;
+    justify-content: center;
+
+
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+
+}

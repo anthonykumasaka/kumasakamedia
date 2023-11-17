@@ -1,6 +1,7 @@
 import React from "react";
 import { Video } from "./Video";
 import "../styles/LandingPage.css";
+import { NavBar } from "./NavBar";
 
 export const LandingPage = () => {
   const options = {
@@ -16,6 +17,9 @@ export const LandingPage = () => {
       <div className="title-container">
         <h1 className="title">Kumasaka Media</h1>
       </div>
+      <div>
+        <NavBar />
+      </div>
       <Video
         url="KqTdT0Qkeqc?si=z1S2XTSBrAZ2QvAO"
         title="Anthony Kumasaka Reel 2013"
@@ -25,7 +29,7 @@ export const LandingPage = () => {
         url="zP7czhIeA94?si=5DC5XsCpAvNkZLaQ"
         title='Ryan Leslie - "Joan of Arc" Live in Seattle'
       />
-      {/* <iframe
+      <iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/pIn-niRpJEQ?si=gt6CDpPsJlbDpB6Q"
@@ -33,7 +37,7 @@ export const LandingPage = () => {
         frameborder="2"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
-      ></iframe> */}
+      ></iframe> 
     </div>
   );
 };

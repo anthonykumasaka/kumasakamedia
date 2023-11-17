@@ -19,7 +19,7 @@ export const Video = (props) => {
 
   return (
     <div className="video-container">
-      <h3 className="video-title">{title || "Title"}</h3>
+      {/* <h3 className="video-title">{title || "Title"}</h3> */}
       <YouTube
         videoId={url}
         options={options || defaultOptions}
